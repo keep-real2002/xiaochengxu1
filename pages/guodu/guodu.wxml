@@ -1,0 +1,3 @@
+<view >
+     <image mode="widthFix" src='/image/welcome/welcome4.jpg' class='img1'></image>
+</view>

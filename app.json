@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/guodu/guodu",
+    "pages/index/index",
+    "pages/starroud/starroud",
+    "pages/mu/mu",
+    "pages/logs/logs"
+    
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#DCDCDC",
+    "navigationBarTitleText": "Lilwen时光馆",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#636364",
+    "selectedColor":"#DCDCDC",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/image/tab/1.png",
+        "selectedIconPath": "/image/tab/1.1.png",
+        "text": "成长册"
+      },
+      {
+        "pagePath": "pages/starroud/starroud",
+        "iconPath": "/image/tab/2.png",
+        "selectedIconPath": "/image/tab/2.1.png",
+        "text": "星光路"
+      },
+      {
+        "pagePath": "pages/mu/mu",
+        "iconPath": "/image/tab/3.png",
+        "selectedIconPath": "/image/tab/3.1.png",
+        "text": "留声机"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,23 @@
+<!--页面根标签-->
+<view class="content">
+<!--pics文件夹下的background.jpg文件-->
+<image class='background' src="/../../image/welcome/back.jpg" mode="widthFix"></image>
+<!--页面其它部分-->
+</view>
+<!--pages/starroad/starroad.wxml-->
+<swiper class="swiper" previous-margin="40rpx" next-margin="40rpx"   indicator-dots="true"  circular="true" indicator-color="#a6adb5"  indicator-active-color="#636364">
+  <block wx:key="id" wx:for="{{imgs}}" >
+    <swiper-item>
+    <view class='star-card'  >
+      <image src="{{item.path}}" mode="aspectFill" class='slide-image' >
+       <image class='check-button'  bindtap='check' data-p-Id="{{item.id}} " src="/image/10.png"></image> 
+       <modal  title="{{item.title}}" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcacel="modalCandel">
+        <scroll-view scroll-y="true" style="height:250px;">
+          <text>{{item.article}}</text>
+        </scroll-view>      
+        </modal>
+      </image>
+    </view>
+    </swiper-item>
+  </block>
+</swiper>

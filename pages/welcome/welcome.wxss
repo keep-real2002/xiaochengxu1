@@ -1,0 +1,22 @@
+
+.img{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display:flex;
+  align-content:center;
+  justify-content: center;
+}
+
+page{
+  background-color:#424242;
+}
+
+.click-button{
+  position: absolute;
+  height: 70rpx;
+  width: 275rpx;
+  right:250rpx;
+  top: 910rpx;
+  font-size: 20rpx;
+}

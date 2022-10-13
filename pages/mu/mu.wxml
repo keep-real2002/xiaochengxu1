@@ -1,0 +1,136 @@
+<!--页面根标签-->
+<view class="content">
+<!--pics文件夹下的background.jpg文件-->
+<image class='background' src="/../../image/welcome/back.jpg" mode="widthFix"></image>
+<!--页面其它部分-->
+</view>
+<view class="padding">
+  <view class="padding-sm  flex margin-bottom:10rpx  radius shadow-warp bg-gray " style="background:rgba(246, 245, 245, 0.5)">
+    <view>
+      <image bindtap="enlarge" data-target="Image1" style="width: 100px; height: 100px" src="/image/music/Got You.jpg"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text style="white-space:pre-wrap" class="text-bold text-lg">Got you                   </text>
+      <text bindtap="call1" class="justify-end cuIcon-playfill text-xl text-black"></text>
+      <text bindtap="pause1" class="justify-end cuIcon-stop text-xl text-black"></text>
+      <text class="justify-end cuIcon-like text-xl text-black"></text>
+    
+      <view>《 Got You 》是刘耀文首次承包词曲创作的一份真挚礼物。磁性的嗓音结合迷幻的 trap 风格，编织出专属的缱绻氛围，听感轻松，律动满分，不经意间流露的浪漫，是只属于歌者和听众的甜蜜派对。
+      </view>
+    </view>
+  </view>
+  <view class="padding-sm  flex margin-bottom:10rpx  radius shadow-warp bg-gray " style="background:rgba(246, 245, 245, 0.5)">
+    <view>
+      <image bindtap="enlarge" data-target="Image2" style="width: 100px; height: 100px" src="/image/music/Falling You.jpg"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text style="white-space:pre-wrap" class="text-bold text-lg">Falling you              </text>
+      <text bindtap="call2" class="cuIcon-playfill text-xl text-black"></text>
+      <text bindtap="pause2" class="cuIcon-stop text-xl text-black"></text>
+      <text class="cuIcon-like text-xl text-black"></text>
+      <view>这次融合了R&B的风格，奠定整首歌的缱绻气质。在808鼓组的配合下，弱中有力。如果说《Got You》是炙热的追求与憧憬，那《Faling You》似乎多了一些纠结和挣扎,更像是内心独白，情绪隐忍，但内心澎湃。
+      </view>
+    </view>
+  </view>
+  <view class="padding-sm  flex margin-bottom:10rpx  radius shadow-warp bg-gray " style="background:rgba(246, 245, 245, 0.5)">
+    <view>
+      <image bindtap="enlarge" data-target="Image3" style="width: 100px; height: 100px" src="/image/music/瑜.jpg"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text style="white-space:pre-wrap" class="text-bold text-lg">瑜 (Yú)                      </text>
+      <text bindtap="call3" class="cuIcon-playfill text-xl text-black"></text>
+      <text bindtap="pause3" class="cuIcon-stop text-xl text-black"></text>
+      <text class="cuIcon-like text-xl text-black"></text>
+      <view>《瑜（Yu）》由三位艺人全程深度参与词曲创作，历经数月反复打磨，使歌曲的表达更具力量感与完整度。方言 Rap 的形式奠定了这首歌多彩的情感魅力，传达 Z 世代未有路先动身，不惧流言、不会停歇、一直前进的志向。
+      </view>
+    </view>
+  </view>
+  <view class="padding-sm  flex margin-bottom:10rpx  radius shadow-warp bg-gray " style="background:rgba(246, 245, 245, 0.5)">
+    <view>
+      <image bindtap="enlarge" data-target="Image4" style="width: 100px; height: 100px" src="/image/music/世界上另一个我.jpg"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text style="white-space:pre-wrap" class="text-bold text-lg">世界上另一个我        </text>
+      <text bindtap="call4" class="cuIcon-playfill text-xl text-black"></text>
+      <text bindtap="pause4" class="cuIcon-stop text-xl text-black"></text>
+      <text class="cuIcon-like text-xl text-black"></text>
+      <view>在纷乱复杂的世界中，永远都有另一个人在某个角落或者平行空间和你做着相同的事情，只是两位少年运气尚好，遇到了彼此那个“世界上的另一个我”。少年们的相互的陪伴让彼此打败了孤独，对生活更加充满希望、热忱！
+      </view>
+    </view>
+  </view>
+  <view class="padding-sm  flex margin-bottom:10rpx  radius shadow-warp bg-gray " style="background:rgba(246, 245, 245, 0.5)">
+    <view>
+      <image bindtap="enlarge" data-target="Image5" style="width: 100px; height: 100px" src="/image/music/不为什么.jpg"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text style="white-space:pre-wrap" class="text-bold text-lg">不为什么                  </text>
+      <text bindtap="call5" class="cuIcon-playfill text-xl text-black"></text>
+      <text bindtap="pause5" class="cuIcon-stop text-xl text-black"></text>
+      <text class="cuIcon-like text-xl text-black"></text>
+      <view>慵懒的唱腔搭配上百老汇的复古disco。给人一种身临80年代热闹迪厅的感觉。
+      </view>
+    </view>
+  </view>
+  <view class="padding-sm  flex margin-bottom:10rpx  radius shadow-warp bg-gray " style="background:rgba(246, 245, 245, 0.5)">
+    <view>
+      <image bindtap="enlarge" data-target="Image6" style="width: 100px; height: 100px" src="/image/music/佳人.jpg"></image>
+    </view>
+    <view class="margin-left-sm">
+      <text style="white-space:pre-wrap" class="text-bold text-lg">佳人                         </text>
+      <text bindtap="call6" class="cuIcon-playfill text-xl text-black"></text>
+      <text bindtap="pause6" class="cuIcon-stop text-xl text-black"></text>
+      <text class="cuIcon-like text-xl text-black"></text>
+      <view>尘埃不惹岁月 烽烟散尽洒热血。风华正茂的青葱岁月，纯真年代的热血青春，人生海海，每个人皆是时代的一页。星星之火足以点亮时代的星河。火花相照，长夜不灭，铸就不屈脊梁 ，烽烟散尽洒热血。
+      </view>
+    </view>
+  </view>
+</view>
+<!--展示音乐封面-->
+<view class="cu-modal {{modalName=='Image1'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/music/Got You.jpg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+<view class="cu-modal {{modalName=='Image2'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/music/Falling You.jpg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+<view class="cu-modal {{modalName=='Image3'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/music/瑜.jpg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+<view class="cu-modal {{modalName=='Image4'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/music/世界上另一个我.jpg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+<view class="cu-modal {{modalName=='Image5'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/music/不为什么.jpg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+<view class="cu-modal {{modalName=='Image6'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/music/佳人.jpg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>

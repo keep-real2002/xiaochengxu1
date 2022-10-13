@@ -1,0 +1,11 @@
+/* pages/guodu/guodu.wxss */
+.img1{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  align-content:center;
+  justify-content: center;
+}
+page{
+  background-color:#424242;
+}

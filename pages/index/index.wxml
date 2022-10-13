@@ -1,0 +1,98 @@
+<!--页面根标签-->
+<view class="content">
+<!--pics文件夹下的background.jpg文件-->
+<image class='background' src="/../../image/welcome/back.jpg" mode="widthFix"></image>
+<!--页面其它部分-->
+</view>
+<view class="padding">
+  <view class="padding-xl radius shadow-warp bg-gray margin-top" style="background:rgba(246, 245, 245, 0.5)">
+    <view bindtap="showphoto" class="flex justify-center" data-target="Imag">
+      <image class="cu-avatar xl round" src="/image/个人简介/头像.jpg"></image>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text class="text-bold">刘耀文</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>时代少年团组合成员</text>
+    </view>
+    <view class="flex justify-center margin-top-sm">
+      <text>男</text>
+      <text class="margin-left-sm">17岁</text>
+      <text class="margin-left-sm">天秤座</text>
+    </view>
+    <view class="flex justify-around margin-top-sm">
+      <view bindtap="showModal" data-target="Image">
+        <text class="cuIcon-weibo text-xl text-gray"></text>
+        <text class="margin-left-xs">微博主页</text>
+      </view>
+      <view bindtap="call">
+        <text class="cuIcon-voicefill text-xl text-gray"></text>
+        <text class="margin-left-xs">语音介绍</text>
+      </view>
+      <view bindtap="showmusic" data-target="Images">
+        <text class="cuIcon-musicfill text-xl text-gray"></text>
+        <text class="margin-left-xs">歌手主页</text>
+      </view>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow-warp bg-gray margin-top" style="background:rgba(246, 245, 245, 0.5)">
+    <view class="cuIcon-discover text-xl text-grey text-center"></view>
+    <view class="edu margin-top text-center text-bold"></view>
+    <view class="margin-top-lg">
+      <text class="cuIcon-time"></text>
+      <text class="margin-left-sm">2005.09.23</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-home"></text>
+      <text class="margin-left-sm">北京时代峰峻文化艺术发展有限公司</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-profile"></text>
+      <text class="margin-left-sm">歌手、演员</text>
+    </view>
+    <view class="margin-top-sm">
+      <text class="cuIcon-location"></text>
+      <text class="margin-left-sm">重庆</text>
+    </view>
+  </view>
+  <view class="padding-xl radius shadow-warp bg-gray margin-top" style="background:rgba(246, 245, 245, 0.5)">
+    <view class="cuIcon-footprint text-xl text-grey text-center"></view>
+    <view class="self margin-top text-center text-bold"></view>
+    <view class="margin-top-sm padding-sm" style="white-space:pre-wrap">    2017年8月，参加TF家族夏日嘉年华。
+    2018年5月，参演的网络剧《念念》在腾讯视频首播；10月，随组合台风少年团举办出道首唱会，正式出道。
+    2019年2月，随组合登上2019年中央广播电视总台春节联欢晚会的舞台；8月，刘耀文通过《台风少年蜕变之战》加入组合时代少年团。
+    2020年1月9日，参加录制的综艺《少年梦游记》播出。
+    2021年1月29日，参演的节目《接招吧！前辈》于每周五22点在东方卫视播出；2月5日，参与录制的综艺节目《百变大咖秀》播出。
+    2022年2月2日，参加《百花迎春》晚会，随组合与李响、黄子弘凡等共同演唱歌曲《青春走在新征程》。
+    2022年2月6日，首部主演微电影《一起等雨停》上线。
+    2022年5月27日，首档常驻综艺《萌探探探案第二季》在爱奇艺播出。</view>
+  </view>
+</view>
+<!--展示个人头像-->
+<view class="cu-modal {{modalName=='Imag'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/个人简介/头像.jpg"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+<!--展示个人微博二维码-->
+<view class="cu-modal {{modalName=='Image'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="wechat" src="/image/个人简介/qrcode.png"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+<!--展示个人音乐二维码-->
+<view class="cu-modal {{modalName=='Images'?'show':''}}">
+  <view class="cu-dialog">
+    <image class="qqmusic" src="/image/个人简介/qq.png"></image>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="hideModal">返回</view>
+    </view>
+  </view>
+</view>
+
