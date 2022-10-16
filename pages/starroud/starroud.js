@@ -78,12 +78,6 @@ Page({
       modalHidden: false
     })
   },
-  modalCandel: function() {
-    // do something
-    this.setData({
-      modalHidden: true
-    })
-  },
   modalConfirm: function() {
     // do something
     this.setData({

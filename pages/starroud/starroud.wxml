@@ -11,7 +11,7 @@
     <view class='star-card'  >
       <image src="{{item.path}}" mode="aspectFill" class='slide-image' >
        <image class='check-button'  bindtap='check' data-p-Id="{{item.id}} " src="/image/10.png"></image> 
-       <modal  title="{{item.title}}" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcacel="modalCandel">
+       <modal  title="{{item.title}}" hidden="{{modalHidden}}" bindconfirm="modalConfirm"  no-cancel="true" confirm-text = "返回">
         <scroll-view scroll-y="true" style="height:250px;">
           <text>{{item.article}}</text>
         </scroll-view>      
